@@ -3,15 +3,23 @@
   "rss": "https://news.google.com/rss",
   "servers": [
     {
-      "id": "elgolium-1.20.1",
+      "id": "elgolium",
       "name": "Elgolium Server",
-      "description": "Основной сервер Elgolium 1.20.1",
+      "description": "Minecraft 1.20.1",
       "icon": "https://raw.githubusercontent.com/dizwezer-crypto/Elgolium/main/icon.png",
       "version": "1.0.0",
       "address": "127.0.0.1:25565",
       "minecraftVersion": "1.20.1",
+      "discord": {
+        "shortId": "elgolium",
+        "largeImageText": "Elgolium Server",
+        "largeImageKey": "seal"
+      },
       "mainServer": true,
       "autoconnect": false,
+      "javaOptions": {
+        "platformOptions": []
+      },
       "modules": []
     }
   ]
